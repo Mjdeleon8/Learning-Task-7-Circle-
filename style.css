@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  background-color: #824d74;
+}
+
+/* arrow */
+
+.arrow {
+  transform: translateY(-30px) translateX(-165px);
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  rotate: 180deg;
+}
+
+/* line to container */
+
+.line-container {
+  position: absolute;
+  right: 0;
+  transform: translateX(-30px) translateY(90px);
+}
+
+/* vertical line */
+
+.line-container > .downline-1 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-2 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-3 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-4 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-5 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-6 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.line-container > .downline-7 {
+  height: 1.3rem;
+  width: 2px;
+  background-color: white;
+}
+
+/* vertical line END*/
+
+/* horizontal line */
+
+.horizontalLine-container {
+  display: flex;
+  transform: translateX(-138.4px);
+}
+
+.horizontalLine-1 {
+  padding: 0.8px;
+  width: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.horizontalLine-2 {
+  padding: 0.8px;
+  width: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.horizontalLine-4 {
+  padding: 0.8px;
+  width: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.horizontalLine-5 {
+  padding: 0.8px;
+  width: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.horizontalLine-6 {
+  padding: 0.8px;
+  width: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+/* line to container END */
+
+.wrapper {
+  padding: 1rem;
+  background-color: black;
+  width: 22%;
+  float: right;
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 13px;
+}
+
+/* calculate container */
+
+.underline {
+  width: 50%;
+  background-color: #fff;
+  padding: 1px;
+  border-radius: 50px;
+  transform: translateY(-10px);
+}
+
+section {
+  background-color: #ab875f;
+  width: 40%;
+  margin: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 30px;
+  transform: translateY(120.8px);
+  border: 2px solid #000000;
+  border-bottom: none;
+}
+
+.enter-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.enter-container > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0 2rem 0;
+  padding: 6px;
+  background-color: #cbb59c;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.enter-container > input:focus {
+  outline: none;
+  background-color: #cbb59c;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #cbb59c;
+  width: 50%;
+  border-radius: 10px;
+  height: 35px;
+}
+
+#circumstances {
+  margin-bottom: 4rem;
+}
+/* buttons */
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 1rem;
+  width: 25%;
+  color: #fff;
+  background-color: black;
+  border-radius: 10px;
+}
